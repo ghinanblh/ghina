@@ -1,0 +1,602 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #f1e3ee;
+    margin-top: 0px;
+    padding: 1px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+}
+
+.container {
+    margin-top: 0px;
+    max-width: 900px;
+    padding: 0px;
+}
+
+.card {
+    background-color: #ecd8e8;
+    padding: 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: large;
+}
+
+.card p {
+    margin-bottom: 10px;
+    font-size: 1px;
+}
+
+.left{
+    float: left;
+    margin: 15px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 8px;
+}
+
+.nav {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #f1e3ee;
+    border-radius: 5px;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1px 105.2px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #ffffff;
+    color: rgb(32, 13, 138);
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+    /* CSS rules for Mobile-S Mobile-M devices */
+    footer {
+        width: 100%;
+        font-size: xx-small;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: fit-content;
+        padding: 0px;
+    }
+    
+    .card {
+        background-color: #ecd8e8;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card h2 {
+        margin-top: 5px;
+        font-size: 7px;
+    }
+    
+    .card p {
+        margin-bottom: 10px;
+        font-size: 7px;
+        justify-content: center;
+    }
+    
+    .left{
+        float: center;
+        width: 20%;
+        height: 20%;
+    }
+    
+    .nav {
+        width: 100%;
+        font-size: xx-small;
+    }
+    
+    .nav li {
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 14.9px;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 599px) {
+    /* CSS rules for Mobile-L devices */
+    footer {
+        width: 100%;
+        font-size: x-small;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: fit-content;
+        padding: 0px;
+    }
+    
+    .card {
+        background-color: #ecd8e8;
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card h2 {
+        margin-top: 5px;
+        font-size: small;
+    }
+    
+    .card p {
+        margin-bottom: 10px;
+        font-size: x-small;
+        justify-content: center;
+    }
+    
+    .left{
+        float: center;
+        width: 20%;
+        height: 20%;
+    }
+    
+    .nav {
+        width: 100%;
+        font-size: small;
+    }
+    
+    .nav li {
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 18.5px;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    /* CSS rules for Tablet devices */
+    footer {
+        width: 100%;
+        font-size: x-small;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: 500px;
+        padding: 0px;
+    }
+    
+    .card {
+        background-color: #ecd8e8;
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card h2 {
+        margin-top: 5px;
+        font-size: medium;
+    }
+    
+    .card p {
+        margin-bottom: 10px;
+        font-size: small;
+        justify-content: center;
+    }
+    
+    .left{
+        float: center;
+        justify-items: center;
+        align-items: center;
+        width: 23%;
+        height: 23%;
+    }
+    
+    .nav {
+        width: 100%;
+        font-size: small;
+    }
+
+    .nav li {
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 36px;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    /* CSS rules for Tablet devices */
+    footer {
+        width: 100%;
+        font-size: small;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: 500px;
+        padding: 0px;
+    }
+    
+    .card {
+        background-color: #ecd8e8;
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card h2 {
+        margin-top: 5px;
+        font-size: medium;
+    }
+    
+    .card p {
+        margin-bottom: 10px;
+        font-size: small;
+        justify-content: center;
+    }
+    
+    .left{
+        float: center;
+        justify-items: center;
+        align-items: center;
+        width: 23%;
+        height: 23%;
+    }
+    
+    .nav {
+        width: 100%;
+        font-size: medium;
+    }
+    
+    .nav li {
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 47.7px;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+    /* CSS rules for Tablet/Laptop devices */
+    footer {
+        width: 100%;
+        font-size: small;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0px;
+    }
+    
+    .card {
+        background-color: #ecd8e8;
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card h2 {
+        margin-top: 5px;
+        font-size: medium;
+    }
+    
+    .card p {
+        margin-bottom: 10px;
+        font-size: small;
+        justify-content: center;
+    }
+    
+    .left{
+        float: center;
+        justify-items: center;
+        align-items: center;
+        width: 19%;
+        height: 19%;
+    }
+    
+    .nav {
+        width: 100%;
+        font-size: medium;
+    }
+    
+    .nav li {
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: left;
+        padding: 1px 60.9px;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    /* CSS rules for Laptop devices */
+    footer {
+        width: 100%;
+        font-size: medium;
+        margin-top: 30px;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: 800px;
+        margin-top: 15px;
+    }
+    
+    .card {
+        background-color: #ecd8e8;
+        padding: 35px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card h2 {
+        margin-top: 5px;
+        font-size: large;
+    }
+    
+    .card p {
+        margin-bottom: 10px;
+        font-size: medium;
+        justify-content: center;
+    }
+    
+    .left{
+        float: center;
+        justify-items: center;
+        align-items: center;
+        width: 20%;
+        height: 20%;
+    }
+
+    .nav {
+        width: 100%;
+        font-size: large;
+    }
+    
+    .nav li {
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: left;
+        padding: 1px 69.8px;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    /* CSS rules for Laptop devices */
+    footer {
+        width: 100%;
+        font-size: medium;
+        margin-top: 30px;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: 850px;
+        margin-top: 15px;
+    }
+    
+    .card {
+        background-color: #ecd8e8;
+        padding: 50px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card h2 {
+        margin-top: 5px;
+        font-size: 25px;
+    }
+    
+    .card p {
+        margin-bottom: 10px;
+        font-size: 18px;
+        justify-content: center;
+    }
+    
+    .left{
+        float: center;
+        justify-items: center;
+        align-items: center;
+        width: 25%;
+        height: 25%;
+    }
+
+    .nav {
+        width: 100%;
+        font-size: x-large;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 85.1px;
+        text-decoration: none;
+    }
+
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /* CSS rules for Laptop devices */
+    footer {
+        width: 100%;
+        font-size: large;
+        margin-top: 27px;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: 900px;
+        margin-top: 15px;
+    }
+    
+    .card {
+        background-color: #ecd8e8;
+        padding: 50px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card h2 {
+        margin-top: 5px;
+        font-size: 30px;
+    }
+    
+    .card p {
+        margin-bottom: 10px;
+        font-size: 15px;
+        justify-content: center;
+        font-size: 18px;
+    }
+    
+    .left{
+        float: center;
+        justify-items: center;
+        align-items: center;
+        width:25%;
+        height: 25%;
+        padding: 0px;
+    }
+
+    .nav {
+        width: 100%;
+        font-size: x-large;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 101.1px;
+        text-decoration: none;
+    }
+
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}

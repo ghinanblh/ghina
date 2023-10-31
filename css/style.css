@@ -1,0 +1,726 @@
+*,
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1e3ee;
+    padding: 7px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.imgbg{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.container-content1{
+    position: relative;
+}
+
+.top-left{
+    position: absolute;
+    top: 110px;
+    left: 150px;
+    font-size: 2em;
+    font-stretch:ultra-expanded;
+}
+
+.centered-left{
+    position: absolute;
+    top: 42%;
+    left: 150px;
+    font-size: larger;
+}
+
+.bottom-left{
+    position: absolute;
+    top: 330px;
+    left: 150px;
+    font-size: xx-large;
+}
+
+main {
+    padding: 100px 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f1e3ee;
+    margin-top: 5x;
+    padding: 1px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #f1e3ee;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1px 105.2px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #ffffff;
+    color: rgb(32, 13, 138);
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+    /* CSS rules for Mobile-S Mobile-M devices */
+    header {
+        width: 95.5%;
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .imgbg{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .container-content1{
+        position: relative;
+    }
+
+    .top-left{
+        position: absolute;
+        top: 20px;
+        left: 40px;
+        font-size: 9px;
+        font-stretch:ultra-expanded;
+    }
+
+    .centered-left{
+        position: absolute;
+        top: 37%;
+        left: 40px;
+        font-size: 7px;
+    }
+
+    .bottom-left{
+        position: absolute;
+        top: 75px;
+        left: 40px;
+        font-size: 9px;
+    }
+
+    main {
+        padding: 100px 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        font-size: xx-small;
+    }
+
+    .nav {
+        width: 100%;
+        font-size: xx-small;
+    }
+    
+    .nav li {
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 14.9px;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 599px) {
+    /* CSS rules for Mobile-L devices */
+    header {
+        width: 96.6%;
+        font-size: 10px;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .imgbg{
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .container-content1{
+        position: relative;
+    }
+
+    .top-left{
+        position: absolute;
+        top: 35px;
+        left: 40px;
+        font-size: 10px;
+        font-stretch:ultra-expanded;
+    }
+
+    .centered-left{
+        position: absolute;
+        top: 40%;
+        left: 40px;
+        font-size: 8px;
+    }
+
+    .bottom-left{
+        position: absolute;
+        top: 105px;
+        left: 40px;
+        font-size: 10px;
+    }
+
+    main {
+        padding: 100px 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        font-size: x-small;
+    }
+
+    .nav {
+        width: 100%;
+        font-size: small;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 18.5px;
+        text-decoration: none;
+    }
+
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) { 
+    /* CSS rules for Tablet devices */
+    header {
+        width: 97.6%;
+        font-size: 10px;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .imgbg{
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .container-content1{
+        position: relative;
+    }
+
+    .top-left{
+        position: absolute;
+        top: 40px;
+        left: 70px;
+        font-size: 15px;
+        font-stretch:ultra-expanded;
+    }
+
+    .centered-left{
+        position: absolute;
+        top: 37%;
+        left: 70px;
+        font-size: 10px;
+    }
+
+    .bottom-left{
+        position: absolute;
+        top: 130px;
+        left: 70px;
+        font-size: 15px;
+    }
+
+    main {
+        padding: 100px 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        font-size: x-small;
+    }
+
+    .nav {
+        width: 100%;
+        font-size: small;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 36px;
+        text-decoration: none;
+    }
+
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    /* CSS rules for Tablet devices */   
+    header {
+        width: 98.1%;
+        font-size: 15px;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .imgbg{
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .container-content1{
+        position: relative;
+    }
+
+    .top-left{
+        position: absolute;
+        top: 40px;
+        left: 90px;
+        font-size: 20px;
+        font-stretch:ultra-expanded;
+    }
+
+    .centered-left{
+        position: absolute;
+        top: 33%;
+        left: 90px;
+        font-size: 15px;
+    }
+
+    .bottom-left{
+        position: absolute;
+        top: 160px;
+        left: 90px;
+        font-size: 20px;
+    }
+
+    main {
+        padding: 100px 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        font-size: small;
+    }
+
+    .nav {
+        width: 100%;
+        font-size: medium;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 47.7px;
+        text-decoration: none;
+    }
+
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+    /* CSS rules for Tablet/Laptop devices */
+    header {
+        width: 98.4%;
+        font-size: 15px;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .imgbg{
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .container-content1{
+        position: relative;
+    }
+
+    .top-left{
+        position: absolute;
+        top: 55px;
+        left: 110px;
+        font-size: 23px;
+        font-stretch:ultra-expanded;
+    }
+
+    .centered-left{
+        position: absolute;
+        top: 35%;
+        left: 110px;
+        font-size: 18px;
+    }
+
+    .bottom-left{
+        position: absolute;
+        top: 190px;
+        left: 110px;
+        font-size: 23px;
+    }
+
+    main {
+        padding: 100px 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        font-size: small;
+    }
+
+    .nav {
+        width: 100%;
+        font-size: medium;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 60.9px;
+        text-decoration: none;
+    }
+
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    /* CSS rules for Laptop devices */
+    header {
+        width: 98.6%;
+        font-size: 19px;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .imgbg{
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .container-content1{
+        position: relative;
+    }
+
+    .top-left{
+        position: absolute;
+        top: 70px;
+        left: 130px;
+        font-size: 25px;
+        font-stretch:ultra-expanded;
+    }
+
+    .centered-left{
+        position: absolute;
+        top: 35%;
+        left: 130px;
+        font-size: 20px;
+    }
+
+    .bottom-left{
+        position: absolute;
+        top: 220px;
+        left: 130px;
+        font-size: 25px;
+    }
+
+    main {
+        padding: 100px 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        font-size: large;
+    }
+
+    .nav {
+        width: 100%;
+        font-size: large;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 69.8px;
+        text-decoration: none;
+    }
+
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    /* CSS rules for Laptop devices */
+    header {
+        width: 98.9%;
+        font-size: 27px;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .imgbg{
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .container-content1{
+        position: relative;
+    }
+
+    .top-left{
+        position: absolute;
+        top: 110px;
+        left: 140px;
+        font-size: 30px;
+        font-stretch:ultra-expanded;
+    }
+
+    .centered-left{
+        position: absolute;
+        top: 38%;
+        left: 140px;
+        font-size: 25px;
+    }
+
+    .bottom-left{
+        position: absolute;
+        top: 280px;
+        left: 140px;
+        font-size: 30px;
+    }
+
+    main {
+        padding: 100px 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        font-size: large;
+    }
+
+    .nav {
+        width: 100%;
+        font-size: x-large;
+    }
+    
+    .nav li {
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 85.1px;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /* CC rules for Laptop devices*/
+    header {
+        width: 99%;
+        font-size: 2em;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .imgbg{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .container-content1{
+        position: relative;
+    }
+
+    .top-left{
+    position: absolute;
+    top: 110px;
+    left: 150px;
+    font-size: 2em;
+    font-stretch:ultra-expanded;
+    }
+
+    .centered-left{
+        position: absolute;
+        top: 40%;
+        left: 150px;
+        font-size: larger;
+    }
+
+    .bottom-left{
+        position: absolute;
+        top: 320px;
+        left: 150px;
+        font-size: xx-large;
+    }
+
+    main {
+        padding: 100px 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        font-size: large;
+    }
+
+    nav {
+        width: 100%;
+        font-size: x-large;
+    }
+
+    .nav li {
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1px 101.1px;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover {
+        background-color: #ffffff;
+        color: rgb(32, 13, 138);
+        transition: .5s ease-in-out;
+        transition-delay: .2s;
+    }
+}
